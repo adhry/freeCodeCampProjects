@@ -1,0 +1,53 @@
+.container {
+    margin: auto;
+}
+
+.timeline div {
+    margin: auto;
+    width: 30%;
+}
+
+.phrase  {
+    text-align: center;
+}
+
+.timeline ul li {
+    padding: 7px;
+}
+
+.mainImage {
+    width: 98%;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+}
+
+.mainImage p {
+    text-align: center;
+}
+
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    text-align: center;
+    padding: 10px;
+}
+
+.link a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .timeline div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800) {
+    .timeline div { 
+        width: 100%;
+    }
+}
