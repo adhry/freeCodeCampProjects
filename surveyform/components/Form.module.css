@@ -12,6 +12,7 @@
 }
 
 .container label {
+    padding-top: 15px;
     padding-bottom: 5px;
 }
 
@@ -77,3 +78,14 @@
     border: 2px solid rgb(100, 162, 243);
 }
 
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}

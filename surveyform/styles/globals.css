@@ -6,6 +6,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-image: url('../public/survey-form-background.jpeg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
 }
 
