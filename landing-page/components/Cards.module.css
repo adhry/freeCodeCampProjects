@@ -1,8 +1,24 @@
 .plans {
+    display: flex;
+    flex-direction: row;
     background-color: rebeccapurple;
     width: 50%;
 }
 
 .card {
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.card h3 {
     background-color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+.card button {
+    background-color: rgb(226, 168, 59);
+    padding: 5px;
+    font-size: 12pt;
+    border: none;
+    margin-bottom: 20px;
 }
