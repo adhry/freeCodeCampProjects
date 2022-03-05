@@ -1,0 +1,79 @@
+.container {
+    width: 40%;
+    background-color: rgba(40, 40, 40, 0.85);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+    font-size: 16pt;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container label {
+    padding-bottom: 5px;
+}
+
+.container button {
+    background-color: rgb(58, 204, 58);
+    font-size: 14pt;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.container  textarea {
+    resize: vertical;
+    font-size: 12pt;
+}
+
+.container label {
+    margin-top: 8px;
+}
+
+.textbox {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14pt;
+}
+
+.textbox[type="text"] {
+    border: none;
+}
+.textbox[type="text"]:focus {
+    outline-width: 0;
+    border: 2px solid rgb(100, 162, 243);
+}
+
+.textbox[type="email"] {
+    border: none;
+}
+.textbox[type="email"]:focus {
+    outline-width: 0;
+    border: 2px solid rgb(100, 162, 243);
+}
+
+.textbox[type="number"] {
+    border: none;
+}
+.textbox[type="number"]:focus {
+    outline-width: 0;
+    border: 2px solid rgb(100, 162, 243);
+}
+
+.selectOp {
+    border: none;
+    border-radius: 8px;
+    font-size: 14pt;
+    padding: 8px;
+}
+.selectOp:focus {
+    outline-width: 0;
+    border: 2px solid rgb(100, 162, 243);
+}
+
