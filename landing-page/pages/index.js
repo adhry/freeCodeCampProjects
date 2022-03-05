@@ -18,6 +18,14 @@ export default function Home() {
         <Perks/>
         <Cards/>
       </main>
+      <footer className={styles.footer}>
+        <div>
+          <a>Privacy</a>
+          <a>Terms</a>
+          <a>Contact</a>
+        </div>
+        <p>Copyright 2016, Original Trombones</p>
+      </footer>
     </div>
   )
 }

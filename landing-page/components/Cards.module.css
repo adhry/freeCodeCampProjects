@@ -1,8 +1,6 @@
 .plans {
-    display: flex;
-    flex-direction: row;
-    background-color: rebeccapurple;
-    width: 50%;
+    color: red;
+    background-color: black;
 }
 
 .card {
@@ -21,4 +19,8 @@
     font-size: 12pt;
     border: none;
     margin-bottom: 20px;
+}
+
+.card button:hover {
+    cursor: pointer;
 }

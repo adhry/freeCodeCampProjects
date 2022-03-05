@@ -2,7 +2,7 @@ import styles from './Cards.module.css'
 
 export default function Cards() {
     return (
-        <div styles={styles.plans}>
+        <div>
             <div className={styles.card}>
                 <h3>TENOR TROMBONE</h3>
                 <p>$600</p>
